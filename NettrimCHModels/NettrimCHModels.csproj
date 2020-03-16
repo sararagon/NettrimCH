@@ -5,8 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Modelos\" />
-    <Folder Include="Interfaces\" />
+    <Compile Remove="Interfaces\**" />
+    <Compile Remove="Modelos\**" />
+    <EmbeddedResource Remove="Interfaces\**" />
+    <EmbeddedResource Remove="Modelos\**" />
+    <None Remove="Interfaces\**" />
+    <None Remove="Modelos\**" />
   </ItemGroup>
 
 </Project>
