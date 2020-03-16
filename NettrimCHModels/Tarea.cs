@@ -28,6 +28,7 @@ namespace NettrimCHModels
         public bool Facturable { get; set; }
 
         public virtual Recurso recurso { get; set; }
+        public virtual CodigoOt trabajo { get; set; }
 
     }
 }
