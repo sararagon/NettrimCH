@@ -5,7 +5,7 @@ using System.Text;
 
 namespace NettrimCHModels.Recursos
 {
-    public class RecursoModel
+    public class Recurso
     {
         [Key]
         [Required(ErrorMessage = "El Id del Recurso es necesario")]

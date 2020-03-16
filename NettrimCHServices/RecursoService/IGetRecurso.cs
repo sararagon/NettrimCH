@@ -7,6 +7,6 @@ namespace NettrimCHServices.RecursoService
 {
     public interface IGetRecurso
     {
-        List<RecursoModel> GetRecurso();
+        List<Recurso> GetRecurso();
     }
 }

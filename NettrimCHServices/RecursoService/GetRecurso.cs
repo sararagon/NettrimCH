@@ -8,7 +8,7 @@ namespace NettrimCHServices.RecursoService
     class GetRecurso : IGetRecurso
     {
 
-        List<RecursoModel> IGetRecurso.GetRecurso()
+        List<Recurso> IGetRecurso.GetRecurso()
         {
             throw new NotImplementedException();
         }
