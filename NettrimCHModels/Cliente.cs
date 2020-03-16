@@ -4,7 +4,7 @@ using System.Text;
 
 namespace NettrimCHModels
 {
-    class Cliente
+    public class Cliente
     {
         public int Id { get; set; }
 
