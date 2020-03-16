@@ -7,7 +7,7 @@ namespace NettrimCHModels.Recursos
 {
     public class Recurso
     {
-        public string IdRecurso { get; set; }
+        public int IdRecurso { get; set; }
         public string Nombre { get; set; }
         public int Clave { get; set; }
         public string Email { get; set; }  
