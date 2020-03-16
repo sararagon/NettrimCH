@@ -8,4 +8,8 @@
     <Folder Include="Repository\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NettrimCHModels\NettrimCHModels.csproj" />
+  </ItemGroup>
+
 </Project>
