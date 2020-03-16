@@ -3,11 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NettrimCHBack", "NettrimCHBack\NettrimCHBack.csproj", "{AFBE03E1-3E39-4FA2-A171-5274F9DAD6E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NettrimCHBack", "NettrimCHBack\NettrimCHBack.csproj", "{AFBE03E1-3E39-4FA2-A171-5274F9DAD6E3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{78CB5071-0B4B-4068-BF69-FB0BEA505B50} = {78CB5071-0B4B-4068-BF69-FB0BEA505B50}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NettrimCHModels", "NettrimCHModels\NettrimCHModels.csproj", "{C65CFFD5-5423-40D7-98E5-0E9BF9DBDB30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NettrimCHModels", "NettrimCHModels\NettrimCHModels.csproj", "{C65CFFD5-5423-40D7-98E5-0E9BF9DBDB30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NettrimCHServices", "NettrimCHServices\NettrimCHServices.csproj", "{78CB5071-0B4B-4068-BF69-FB0BEA505B50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NettrimCHServices", "NettrimCHServices\NettrimCHServices.csproj", "{78CB5071-0B4B-4068-BF69-FB0BEA505B50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
